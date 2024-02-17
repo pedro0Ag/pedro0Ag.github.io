@@ -1,19 +1,32 @@
 
-img {
-    display: none;
-  }
-  
+*{
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
   html, body, aside {
     height: 100%;
   }
   
   .aside-wrap {
     width: 240px;
-    background-image: linear-gradient(to bottom right, red, black);
+    background-image: linear-gradient(to bottom right, rgb(170, 34, 34), black);
+  padding: 100px 20px;
+  position: fixed;
+
+  }
+  .profile-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .5);
+    
   }
   
   .aside-wrap .menu-list {
     list-style: none;
+    margin-top: 20px;
   }
   
   .aside-wrap .menu-item {
