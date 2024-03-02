@@ -12,6 +12,9 @@ html, body, aside, main, section {
 html {
   scroll-behavior: smooth;
 }
+ul:not(.menu-list) {
+  padding: 0;
+}
 
 /* SECTIONS */
 section {
@@ -66,5 +69,25 @@ section {
 
 /* SECTION HOME */
 #home .email-link {
-  tex
+  text-transform: uppercase;
+  color: red;
+  text-decoration: none;
+}
+.social-links{
+  list-style: none;
+}
+.social-links li {
+display: inline-block;
+background-color: red;
+margin-right: 10px;
+}
+.social-links li a {
+  padding: 10px;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  background-color: red;
+  
 }
