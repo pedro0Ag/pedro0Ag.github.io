@@ -35,7 +35,7 @@ section {
 /* ASIDE WRAP */
 .aside-wrap {
   width: 240px;
-  background-image: linear-gradient(to bottom right, red, black);
+  background-image: linear-gradient(to bottom right,  #C94666, black);
   padding: 100px 20px;
   position: fixed;
 }
@@ -70,7 +70,7 @@ section {
 /* SECTION HOME */
 #home .email-link {
   text-transform: uppercase;
-  color: red;
+  color: #78293d;
   text-decoration: none;
 }
 .social-links{
@@ -89,6 +89,4 @@ margin-right: 10px;
   font-weight: bold;
   font-size: 26px;
   text-decoration: none;
-  background-color: #78293d;
-
 }
