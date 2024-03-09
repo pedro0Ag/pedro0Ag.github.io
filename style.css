@@ -78,7 +78,8 @@ section {
 }
 .social-links li {
 display: inline-block;
-background-color: red;
+background-color: #78293d;
+
 margin-right: 10px;
 }
 .social-links li a {
@@ -88,6 +89,6 @@ margin-right: 10px;
   font-weight: bold;
   font-size: 26px;
   text-decoration: none;
-  background-color: red;
-  
+  background-color: #78293d;
+
 }
